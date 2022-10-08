@@ -1,0 +1,52 @@
+#container {
+    background-color: rgb(181, 193, 206);
+    width:100%;
+    height:100%;
+    padding: 20px;
+    margin: 0.6px;
+
+   
+}
+
+#ki{
+    color:white;
+    background-color: rgb(2, 10, 17);
+    border: 5px;
+
+
+}
+#red{
+    color:red;
+}
+#click{
+    display: flex;
+    justify-content:space-around;
+    align-items:center;
+
+
+}
+button:hover{
+    background-color: black;
+    border-radius: 20px;
+}
+.plans{
+    color:white;
+    background-color: red;
+    border: 5px solid black;
+    border-radius: 30px;
+    padding: 20px;
+    margin: 20px;
+    width:150px;
+    height:100px;
+    justify-content: flex-end;
+
+    transition: 0.5s;
+    
+}
+.plans:hover{
+    background-color: aqua;
+    color: black;
+    border-color: azure;
+    width: 155px;
+    height: 105px;
+}
